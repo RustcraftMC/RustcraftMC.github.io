@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Center an Image using text align center</title>
+    <style>
+        div {
+            height: 400px;
+            width: 400px;
+            text-align: center;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -200px;
+            color: #fff
+        }
+        body{
+            background-color: #2b2727;
+        }
+        button {
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgb(20, 19, 19);
+    transition: 0.5s ease-in-out;
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+button:hover{
+    color: #000;
+    background-color: #fff;
+}
+    </style>
+  </head>
+  <body>
+    <div class="img-container"> <!-- Block parent element -->
+      <img src="ComingSoon.jpg" alt="An error has occured loading the image. Please DM @Wimfish1 on discord to notify me of the error.">
+      <p>This page is currently being worked on behind the scenes. Come back later to check it out!</p>
+      <a href="index.html"><button >Back To Main Page</button>
+    </div>
+  </body>
+</html>
